@@ -24,7 +24,7 @@ namespace ConsoleApp1
             string applicantEmail = conn.GetEmail(applicantId);
 
             // Send the evaluation report via email
-            email.SendEvaluationReport(applicantEmail, evaluationReport);
+            email.SendEvaluationReport(applicantEmail, evaluationReport); //POTA HELP AHUDHUDHASHISJCAOSJ
 
             Console.WriteLine("Evaluation report added and email sent successfully!");
         }
